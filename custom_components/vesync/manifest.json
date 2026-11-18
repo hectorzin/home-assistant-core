@@ -1,0 +1,31 @@
+{
+  "domain": "vesync",
+  "name": "VeSync",
+  "categories": [
+    "climate.air_purifiers_humidifiers",
+    "plugs_switches",
+    "appliances_cleaning.cooking"
+  ],
+  "codeowners": [
+    "@hectorzin"
+  ],
+  "config_flow": true,
+  "connectivity": [
+    "cloud"
+  ],
+  "dhcp": [
+    {
+      "hostname": "levoit-*"
+    }
+  ],
+  "documentation": "https://github.com/hectorzin/home-assistant-core/tree/eleva-preview-2026.11",
+  "integration_type": "hub",
+  "iot_class": "cloud_polling",
+  "loggers": [
+    "pyvesync"
+  ],
+  "requirements": [
+    "pyvesync @ https://github.com/hectorzin/pyvesync/releases/download/eleva-preview-3.5.1.post20261118/pyvesync-3.5.1.post20261118-py3-none-any.whl#sha256=2a8f7e6abfd5604f014beff471fc246728db5b8f16074929855d6b247b967db3"
+  ],
+  "version": "2026.11.2"
+}

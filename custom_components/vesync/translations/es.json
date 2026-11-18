@@ -1,0 +1,15 @@
+{
+  "entity": {
+    "sensor": {
+      "carbon_filter_life": {
+        "name": "Vida útil del filtro de carbón"
+      },
+      "pre_filter_life": {
+        "name": "Vida útil del prefiltro"
+      },
+      "filter_remaining_days": {
+        "name": "Días restantes del filtro"
+      }
+    }
+  }
+}
